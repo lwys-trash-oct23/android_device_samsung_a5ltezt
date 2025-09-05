@@ -17,7 +17,7 @@
 
 # Board config for CHN Open-like A5 2015 variants
 
-include vendor/samsung/a5lte/BoardConfigBase.mk
+include device/samsung/a5lte/BoardConfigBase.mk
 
 DEVICE_PATH := device/samsung/a5ltezt
 
