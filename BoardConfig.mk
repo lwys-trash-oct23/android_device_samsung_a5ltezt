@@ -22,9 +22,9 @@ include vendor/samsung/a5lte/BoardConfigBase.mk
 DEVICE_PATH := device/samsung/a5ltezt
 
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_a5_chnopen_defconfig
-ifeq ($(WITH_TWRP),true) # FIXME
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_a5u_eur_twrp_defconfig
-endif
+#ifeq ($(WITH_TWRP),true) # FIXME
+#TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_a5u_eur_twrp_defconfig
+#endif
 
 # Manifest
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
