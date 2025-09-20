@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_a5ltezt.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a5ltezt-user \
     lineage_a5ltezt-userdebug \
+    lineage_a5ltezt-user \
     lineage_a5ltezt-eng
